@@ -10,7 +10,7 @@ document.writeln("Первое имя: "+firstName,
 // document.getElementById("secondNameData").write=(secondName);
 
 
-let country = prompt("С какой вы страны? uk/ru");
+let country = prompt("С какой вы страны? uk/ru",);
 let countryData = country!="ru" && country=="uk";
 console.log(countryData);
 if(countryData == false){
