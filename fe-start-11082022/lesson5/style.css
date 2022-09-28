@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-800: 'Montserrat, sans-serif';
+    --font-500: 'Poppins', sans-serif;
+}
+
+header{
+    
+    /* display: flex;
+    justify-content: space-between; */
+}
+.container{
+    padding: 37px 26px;
+    max-width: 1512px;
+    width: 95%;
+    margin: 0 auto;
+}
+.logo{
+    position: relative;
+    /* display: inline-block; */
+    /* width: 163px; */
+    top: -5px;
+    float: left;
+    background-color: black;
+    /* font-family: var(--font-800); */
+    font-size: 16px;
+    color: white;
+    padding: 9px 51px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+    font-size: 24px;
+}
+h1{
+    /* font-family: var(--font-800); */
+    /* font-weight: 800; */
+    /* font-size: 60px; */
+}
+ul{
+    display: inline-block;
+    list-style: none;
+}
+ul.head_list li{
+    
+    display: inline-block;
+    padding: 0 23px;
+    /* font-size: 24px; */
+}
+.burger{
+    display: none;
+    padding-right: 40px;
+    font-size: 30px;
+}
+ul.head_list li:first-child{
+    padding-left: 0;
+}
+ul.head_list li:last-child{
+    padding-right: 46px;
+}
+
+.head_left{
+    float: left;
+}
+.head_right{
+    padding-right: 41px;
+    float: right;
+}
+.head_right a:last-of-type{
+    padding-left: 50px;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* @media (min-width:390px){
+
+} */

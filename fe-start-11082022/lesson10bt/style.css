@@ -1,0 +1,30 @@
+:root{
+  --font-head: 'Ms Madi', cursive;
+}
+.namingmenu{
+  font-size: 34px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  left:38%;
+}
+.newsdate{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+  list-style: none;
+}
+li{
+  padding: 0 20px;
+}
+footer{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+  color:white;
+}
+nav{
+  background-color: #668E68;
+}
+nav>div{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 80px;
+}

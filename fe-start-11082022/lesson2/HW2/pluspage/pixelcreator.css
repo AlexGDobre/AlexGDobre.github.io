@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: rgba(28, 82, 221, 0.56);
+}
+.margin{
+    margin: 0 70px 0 130px;
+}
+header{
+    height: 161px;
+    min-width: 1050px;
+    padding: 50px 0;
+}
+header>div{
+
+}
+div:first-of-type{
+    float: left;
+}
+nav{
+    padding-top: 5px;
+    float: right;
+    position: static;
+}
+a{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+}
+a:first-of-type{
+    font-weight: 500;
+}
+button{
+    background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+    border-radius: 13px;
+    color: white;
+    border: 0;
+    padding: unset;
+}
+button.sign_up{
+    width: 164px;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 16px 0;
+}
+button.join_now{
+    width: 277px;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(229, 229, 229, 1);
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+    padding: 21px 0;
+    margin-top: 50px;
+}
+
+main div{
+    display: inline-block;
+}
+.p1, h2{
+font-weight: 600;
+font-size: 70px;
+line-height: 82px;
+color: white;
+margin: 0;
+margin-bottom: 20px;
+}
+.p2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(229, 229, 229, 1);
+}
+p{
+    margin: 0;
+}
+main img{
+    display: inline-block;
+    float: right;
+}
+div.block{
+    width: 544px;
+    margin: 150px 0;
+}

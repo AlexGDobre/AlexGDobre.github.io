@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox чет не работает в мазиле. на сколько я понял сейчас это правило для данного браузера не актуально*/
+}
+body{
+    background: white;
+}
+header{
+    width: 1000px;
+    height: 96px;
+    margin: 0 auto;
+}
+.container{
+    min-width: 912px;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    font-weight: 700;
+    margin: 0;
+}
+h3{
+    font-weight: 600;
+    font-size: 27px;
+}
+h4{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+header>div.logotype{
+    float: left;
+    font-weight: 600;
+    font-size: 27px;
+    /* position: relative;
+    top: 16px;
+    left: 12px; */
+}
+header>div.nav-block{
+    float: right;
+    padding: 16px 0;
+}
+ul.nav-header li{
+    display: inline-block;
+    padding: 0 12px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    line-height: 30px;
+}
+ul.nav-header a:hover{
+    transform: scale(130%);
+    display: block;
+}
+p{
+    padding: 20px 0;
+}
+
+
+.blue_button{
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px 16px;
+    background: white;
+}
+.blue_button:hover{
+    background: #0062FF;
+    color: white;
+}
+.gray_button{
+    color: #575757;
+    border: 1px solid #575757;
+    padding: 10px 16px;
+    background: white;
+}
+.gray_button:hover{
+    color: white;
+    background: gray;
+}
+.h2_blocks{
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.first_block{
+    text-align: left;
+    background: no-repeat url(img/iPhone13.png);
+    background-position: top 50px right -70px;
+}
+div.first_block button.blue_button{
+    margin-right: 20px;
+}
+.first_block div{
+    width: 50%;
+    padding: 150px 0 100px 0;
+}
+/* div.first_block img{
+    float: right;
+    padding-left: 70px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+
+.authors_block{
+    padding-bottom: 60px;
+}  
+section.authors_head{
+    text-align: center;
+}
+td img{
+    padding-right: 15px;
+    height: 20px;
+}
+div.table{
+    display: table;
+}
+div.table>div.table_row div:first-child{
+    /* padding-right: 40px; */
+}
+div.table>div.table_row > div:nth-child(2){
+    /* width: 40%; */
+    padding-left: 40px;
+}
+div.table>div.table_row div:last-child{
+    /* padding-left: 50px;
+    width: 30%; */
+}
+.table_row{
+    display: table-row;
+}
+.table_cell{
+    display: table-cell;
+    vertical-align: top;
+}
+
+div.last_cell{
+    color: rgba(255, 190, 11, 1);
+    width: 250px;
+}
+div.before_arrow{
+    color: initial;
+}
+div.before_arrow::before{
+    content: "<";
+    float: left;
+    font-size: 30px;
+} 
+
+.blue_block{
+    background: rgba(0, 98, 255, 1);
+    color: black;
+    text-align: center;
+}
+/* .block_in_blue{
+    width: 1200px;
+    margin: 0 auto;
+} */
+.blue_block div:only-child{
+    padding: 60px 0;
+}
+.blue_section{
+    margin: 0 auto;
+    padding: 40px 0;
+}
+section.blue_section div{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.blue_section img{
+    float: left;
+    padding: 0px 30px 30px 0px;
+}
+
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/* .video_block{
+    margin: 0 auto;
+    width: 1200px;
+} */
+.video_block img{
+    display: inline-block;
+    float: right;
+}
+
+
+.opinions_container{
+    background: rgba(255, 190, 11, 1);
+    padding: 50px 0;
+    text-align: center;
+}
+
+div.rewiew_overflow{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.rewiew_block{
+    width: 620px;
+    height: 230px;
+    display: inline-block;
+    text-align: left;
+    background: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+div.rewiew_overflow div.rewiew_block:first-child, 
+div.rewiew_overflow div.rewiew_block:last-child{
+    position: absolute;
+    top: o;
+    opacity: 0.5;
+}
+div.rewiew_overflow div:first-child{
+    left: -400px;
+}
+div.rewiew_overflow div:last-child{
+    right: -400px;
+}
+
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;
+}
+
+div.rewiew_text{
+    padding: 59px 0;
+    padding-right: 16px;
+}
+.rewiew_text::before{
+    content: url(img/cloud.png);
+    float: left;
+    padding: 40px 16px 50px 16px;
+}
+
+.stars_bg{
+    display: inline-block;
+    /* content: url(img/Star.png); */
+    width: 117px;
+    height: 25px;
+    background-image: url(img/Star.png);
+    background-repeat: repeat-x;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.rewiew_text h3{
+    display: inline-block;
+}
+.rewiew_block p{
+    /* width: 611px; */
+}
+
+footer{
+    padding: 80px 0;
+    /* text-align: center; */
+}
+/* .footer_iphone{
+    width: 1200px;
+    margin: 0 auto;
+} */
+div.footer_iphone img{
+    display: inline-block;
+    transform: scale(65%);
+    /* float: left; */
+}
+#my_product_title{
+    vertical-align: top;
+    padding: 130px 0;
+    width: 20%;
+    /* text-align: left; */
+    display: inline-block;
+    /* float: left; */
+}
+#my_product_title h2{
+    color: rgba(34, 3, 228, 1);
+    margin-top: 16px;
+}
+#email{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+#email input{
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    padding: 25px 0 25px 24px;
+    background: rgba(58, 134, 255, 0.2);
+    border: none;
+    margin-top: 40px;
+}
+#email button{
+    width: 100%;
+}

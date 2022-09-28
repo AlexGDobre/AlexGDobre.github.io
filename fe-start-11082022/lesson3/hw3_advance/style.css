@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 860px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+div.personal_block{
+    padding-bottom: 40px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+div.about{
+    vertical-align: top;
+    display: inline-block;
+    width: 646px;
+    padding-left: 40px;
+}
+div.photo_block{
+    position: relative;
+    display: inline-block;
+    width: 209px;
+    height: 321px;
+}
+div.photo_block img{
+    position: absolute;
+}
+.text_inimg{
+    background-color: rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    width: 191px;
+    margin: 11px 8px;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    color: white;
+    border-radius: 15px;
+}
+.text_inimg h2{
+    color: white;
+    font-size: 16px;
+}
+.text_inimg h3{
+    color: rgba(249, 203, 40, 1);
+    font-size: 14px;
+    margin: 4px 0 8px 0;
+}
+div.text_inimg div{
+    padding: 8px;
+}
+.block{
+    background: rgba(241, 239, 254, 1);
+    border-radius: 10px;
+}
+.padding{
+    padding: 16px 24px;
+}
+.list_hor{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(12, 13, 31, 0.5); 
+}
+ul.list_hor li{
+    display: inline-block;
+    padding-right: 20px;
+}
+div.padding p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+div.about h2{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+div.bottom{
+    padding-top: 32px;
+}
+div.goals_block{
+    margin-right: 58px;
+}
+div.goals_block, div.cancer_block{
+    width: 271.5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul.list_vert{
+    padding: 5px 0;
+    padding-left: 30px;
+    list-style: none;
+    font-size: 14px;
+}
+ul.list_vert li{
+    padding: 3px;
+    position: relative;
+    width: 169px;
+    font-size: 12px;
+}
+ul.list_vert li:first-of-type{
+    padding-bottom: 3px;
+}
+ul.list_vert li:last-of-type{
+    padding-top: 4px;
+}
+div.goals_block li::before{
+    position: absolute;
+    content: url('goals_icon.png');
+    left: -20px;
+}
+div.cancer_block li::before{
+    position: absolute;
+    content: url('cancel_icon.png');
+    left: -20px;
+}
